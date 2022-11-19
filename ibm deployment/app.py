@@ -12,9 +12,8 @@ from flask import Flask, request, render_template, redirect, url_for
 
 
 #Loading the model
-# modeln=load_model("model_vgg16.h5")
-# modeln=load_model("model_v3_vgg16.h5")
-modeln=load_model("model_v4_vgg16.h5")
+
+modeln=load_model("Vgg-16-nail-disease.h5")
 
 
 app=Flask(__name__)
